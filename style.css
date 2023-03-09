@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+    background-color: #ffffff;
+}
+
+.nav-navbar{
+    background-color: blanchedalmond;
+    border:2px solid black;
+    font-family: 'Gaegu', cursive;
+    font-size: 30px;
+
+}
+
+
+.page-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border:2px solid rgb(183, 23, 23)
+}
+.product-container img{
+    width: 300px;
+}
