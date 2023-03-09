@@ -1,23 +1,54 @@
-body{
-    margin: 0;
-    background-color: #ffffff;
+body {
+  margin: 0;
+  background-color: #ffffff;
 }
 
-.nav-navbar{
-    background-color: blanchedalmond;
-    border:2px solid black;
-    font-family: 'Gaegu', cursive;
-    font-size: 30px;
-
+.nav-navbar {
+  background-color: blanchedalmond;
+  border: 1px solid rgb(31, 2, 53);
+  font-family: "Gaegu", cursive;
+  font-size: 30px;
 }
 
+.nav-navbar {
+  margin: 10px;
+}
 
-.page-content{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    border:2px solid rgb(183, 23, 23)
+.page-content {
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  border: 1px solid rgb(183, 23, 23);
 }
-.product-container img{
-    width: 300px;
+
+.product-container {
+  margin: 20px;
+  padding: 2px 20px;
 }
+
+.product-container:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.product-container img {
+  width: 300px;
+}
+
+.button-add {
+  border: none;
+  font-size: 16px;
+  text-align: center;
+  background-color: white;
+  color: black;
+  border: 2px solid #4caf50;
+  transition-duration: 0.4s;
+}
+
+.button-add:hover {
+  background-color: #802859;
+  color: white;
+}
+/* .button-add:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  } */
