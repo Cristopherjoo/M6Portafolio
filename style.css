@@ -1,31 +1,51 @@
+
+
 body {
-  margin: 0;
+  margin: 30px;
   background-color: #ffffff;
 }
 
-.nav-navbar {
-  background-color: blanchedalmond;
-  border: 1px solid rgb(31, 2, 53);
-  font-family: "Gaegu", cursive;
-  font-size: 30px;
-}
 
 .nav-navbar {
-  margin: 10px;
+  margin: 30px;
+  padding: 30px;
+  
+  background-color: rgb(101, 140, 156);
+  border: 1px solid rgb(31, 2, 53);
+  font-family: "Gaegu", cursive;
+  font-size: 36px;  
+  color:cornsilk;
+  border-radius: 10px;  
 }
+span{
+  border:2px solid black; 
+  border-radius: 50px;
+  border-color: #99d2ef;   
+  padding: 10px;
+}
+
+
 
 .page-content {
   padding: 10px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  border: 1px solid rgb(183, 23, 23);
+ 
+}
+
+h3{
+  padding-left: 15px;
 }
 
 .product-container {
   margin: 20px;
   padding: 2px 20px;
+  border-radius: 20px;
+  background-color: #99d2ef;
+  
 }
+
 
 .product-container:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
@@ -35,20 +55,55 @@ body {
   width: 300px;
 }
 
-.button-add {
-  border: none;
-  font-size: 16px;
-  text-align: center;
+img{
+  width: 250px;
+  border-radius: 20px 20px;
+}
+
+h4{
+  padding-left: 15px;
+    
+}
+
+button.button1-add{
+  padding: 12px;
+}
+
+.button1-add {
+  margin:0 0 10px 15px;  
+  border-radius: 16px;
+  font-size: 22px;  
   background-color: white;
   color: black;
-  border: 2px solid #4caf50;
+  border: 2px solid #1e3e1e;  
+  transition-duration: 0.4s;
+}
+button.button2-add{
+  padding: 12px;
+}
+
+.button2-add {
+  margin:0 0 10px 15px;  
+  border-radius: 16px;
+  font-size: 22px;  
+  background-color: white;
+  color: black;
+  border: 2px solid #1e3e1e;  
   transition-duration: 0.4s;
 }
 
-.button-add:hover {
+.button1-add:hover {
   background-color: #802859;
   color: white;
 }
-/* .button-add:hover {
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-  } */
+ .button1-add:hover {
+    box-shadow: 0 12px 16px 0 rgba(105, 32, 32, 0.24), 0 17px 50px 0 rgba(123, 210, 247, 0.19);
+  } 
+
+  .button2-add:hover {
+    background-color: #286380;
+    color: white;
+  }
+   .button2-add:hover {
+      box-shadow: 0 12px 16px 0 rgba(112, 173, 243, 0.24), 0 17px 50px 0 rgba(123, 210, 247, 0.19);
+    } 
